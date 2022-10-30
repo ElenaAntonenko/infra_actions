@@ -58,7 +58,7 @@ jobs:
             tags: antonenkoelena/quirky_blackwell:v1
  
   deploy:
-  
+
       runs-on: ubuntu-latest
       needs: build_and_push_to_docker_hub
       steps:
@@ -67,7 +67,44 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
-          key: ${{ secrets.SSH_KEY }}
+          key: b3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABDwYnQrNL
+                mWRdxVeLVkT1SNAAAAEAAAAAEAAAGXAAAAB3NzaC1yc2EAAAADAQABAAABgQCw4G3V7e9W
+                Bg1vNNyRsx6detGmaDz8A3f0jBEQGoutMIvolrbY3zdcmZ8QdJuPe+YC9H0e9RsXy9bDAi
+                BTbBgjLFobe/ga0ulqxM9p0m2f/aLyC2/yltW01TkouOTJzwtjjpRhSi5Jr6ydK9A5/1n8
+                dP8v2h7T4Be5/VoIcoAvVSBFz77VmzIxpMzxMo658c6Mqs4e2XeNhNR5Z/+yzdCOklhjKv
+                Us0TAjCuB79SLhW40Q+NvhE84UMhLcF8IrBNiEeqwpPy1fs55rUGnl8b+BrA777+YPiUmo
+                7K0uWTIX3ODogKkivB6ekWiTuQKxlRhquz18FVwA5slyaqlY2+nX7UArabX8Q2ZZuoFkbl
+                WV9Ronu8RrX4OTVCftd/DCV69S2hDGVO8Z7S4VqtxzFNDhLNK+ekAxv2cv9uTI+einqAQa
+                WHlliTjGcGwNbeuxFYv1wEhK2X1wPAQcJn+e7RPoDAIkkceFaBM1PloVPlh6vikLIWD57j
+                Ylukiu+O94YZUAAAWQjYwo7feWQWmV3UbSQ7uVEkgM6IoO3pjQEm52wyPKPfgp5acQHMX8
+                ZXQIDg7elxSz7LRxQ4S0eSW70YCBY/AYAivNBMeIY/7aZgIG4UW3eUnJda+cruw8b/g5AA
+                Dw2eKweqv6BJdpVAOcmWRYdxf5zv7bk0NGcHR5gd3L8i7Bj/p9IbbX6vGNH1rb63MQ5AZ0
+                MWtS36U9fa4i3p2FnSaRKddxs1OYwkTRps1t2/+biRJrUmHgcLFYfvJdkI/uKXGCOTyrxM
+                4R4B9qhp7Av77z7eByEx3MPiq8dIP/a13bzB56QTsp5gt+NFwkcL3sIPeK7vRcmXeq98XE
+                7XrpxpoGx3OoCzzWOABY7RcJRO8O4nQ2F6MBBtXqpRxrtSU1g1EJqrIkvkrtu+2v822DWa
+                fGe8gVfkDfcNJ9aKuQHjAOtpCvH+lU8FXqxAiBU/felf2o3PhaySjOwxZM4LGq09exyQAn
+                OFQz3mUVytdjXdYHhfCJs47IAzugOVgelVz6cDVjpHF+xlEfanZuYr6SiBKDebHDslDueu
+                enp/VGhdcrmy7PrHZ8w4fnw2B2Kh/6xffH/mjnlxAQH0pgYNaFaxXPKOfC074PWPmCwJuS
+                TOAwVOQq/ad18i4qF2Hvtagc6H2eKrkTMKVTNehXZ4xFg40FhPR/rOc6Ve3IbC3aPj8xUj
+                XvNtMj3aigb2i2ny75HEYboKcR3H+TgjXGnhxpSZmabXy7Bd6uxAvaawJ5MpBsvENo6e28
+                rvHVORudVuV9liKtz74/0XYkWew4D5GqOTSs0+LxKjryzFSykA/UjlBWmahm4tUbP5sNBV
+                xHG3Bygy7gec7goTLLAwBEKUmanfp+3dbuaSHPuAx8Gkuii32JkQifS8BoHy9hATlY3781
+                X0BiUGxNh3/prHotfZfGNufAnetOVk2axI+Ngtmk0Ek42T28oUztA9adzf/G5hwOdYrvHg
+                gtMuD1e5Xq3fjOessh2wnf/bvrf3QDjl5w/DoIIV0uA8N6xFlMc30ho+zGkOirGCsgXN3v
+                +3vtxMxFdMCVYlJtjsYfcV3dR9fxkhgBEwczhB/XAk5b+creNpS03HwgX0a17Y8DNSDGdW
+                Vi/xVxkckSa7X9V5FOYIebbAe1LZRdzw3/3lEWCu9Tn2NtwyuFYiJz7NVldJDAoTbLW7wO
+                a8IqCHCyyEIuERBvp4OVjNUnQb8TSMnm2jjrVCS71/ZQCVr5tW4b+FYMDBus9umQlVlYZI
+                Ukp5qoOyf/tvsanZ2wZtssfo6RNzVCyVNm6RGBTgJc6r6g+o5be8UWrrmtKstoLlvJFYA5
+                e5ZMcHueoklQ5mApjoqZyfxE8UyWnq5KJwj/7SReUJ1cycmL4AkNh91Oh7Fdx/GQAqUjYi
+                EgEen65ptdqkpjGbn2GA/gb3UA6dWIYkj80E/1uA+pOf0xhzLwc02n26EALCD+f4V4kFZY
+                CzsAmyqshX8oUBN8DE1lwoSEqB8u9cZ6ZKVLFHJ2Z8jv6v79p83JnbAGAI8jGIkCn8gKrg
+                YrdnVpbOENOlhbSuXzjLHmIqxeO9rf8uhzla4sGuQhnWR0qdaBmuDkQGTGyWNyySPESjsh
+                +isL2Jx31gTRvSnmWTGciYj/VZgbdzipdrQbZgNCn8NomgHnBB4p8o0vk7wG5bO6GF64zP
+                Q7+eD6vfjhlgk4xk2D9cwvoEFQXAsnB1XE+lXNepw8Yvj9L1bAUMPfdBgh/aS6fQ+hZtGx
+                Nb1Xg21vBmkjpU0J3jxQQUxEfp3ETxcBS5qeGv/gUHrgtmOstQ25B8WAWIW8oepZoq7HrK
+                b8J2JuytwzMTUxGrYY3fXxOjSi8kjSGvzk1iZHRgnEaCQ0zkKT39SEWOowBtShVax6pylP
+                J3rKzcBRCcE6zZtiDKv/anW84l8=
+
           passphrase: ${{ secrets.PASSPHRASE }} # Если ваш ssh-ключ защищён фразой-паролем
           script: |
             # Выполняет pull образа с DockerHub
